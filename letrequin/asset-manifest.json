@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/letreco_rapaziada/static/css/main.50352713.css",
+    "main.js": "/letreco_rapaziada/static/js/main.42f383bd.js",
+    "index.html": "/letreco_rapaziada/index.html",
+    "main.50352713.css.map": "/letreco_rapaziada/static/css/main.50352713.css.map",
+    "main.42f383bd.js.map": "/letreco_rapaziada/static/js/main.42f383bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50352713.css",
+    "static/js/main.42f383bd.js"
+  ]
+}
