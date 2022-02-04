@@ -3,7 +3,7 @@ import { DailyWord, DailyWordDatabase } from "../models";
 const MILISSECONDS_IN_A_MINUTE = 60 * 1000;
 
 export function getToday(): string {
-  const todayDate = new Date('2022-05-24');
+  const todayDate = new Date('2022-03-11');
   const correctedDate = new Date(
     todayDate.valueOf() - (todayDate.getTimezoneOffset() * MILISSECONDS_IN_A_MINUTE)
   );
@@ -78,8 +78,8 @@ export const dailyWords: DailyWordDatabase = {
   '2022-03-07': { edition: '060', date: '2022-03-07', word: 'PALMO' },
   '2022-03-08': { edition: '061', date: '2022-03-08', word: 'LOUSA' },
   '2022-03-09': { edition: '062', date: '2022-03-09', word: 'LEAIS' },
-  '2022-03-10': { edition: '063', date: '2022-03-10', word: 'ZINCO' },
-  '2022-03-11': { edition: '064', date: '2022-03-11', word: 'LEAIS' },
+  '2022-03-10': { edition: '063', date: '2022-03-10', word: 'GOZAR' },
+  '2022-03-11': { edition: '064', date: '2022-03-11', word: 'SAGAZ' },
   '2022-03-12': { edition: '065', date: '2022-03-12', word: 'VELHO' },
   '2022-03-13': { edition: '066', date: '2022-03-13', word: 'CAMPI' },
   '2022-03-14': { edition: '067', date: '2022-03-14', word: 'PADRE' },
@@ -111,7 +111,7 @@ export const dailyWords: DailyWordDatabase = {
   '2022-04-09': { edition: '093', date: '2022-04-09', word: 'PAJEM' },
   '2022-04-10': { edition: '094', date: '2022-04-10', word: 'EFUSO' },
   '2022-04-11': { edition: '095', date: '2022-04-11', word: 'ISCAR' },
-  '2022-04-12': { edition: '096', date: '2022-04-12', word: 'TUPLA' },
+  '2022-04-12': { edition: '096', date: '2022-04-12', word: 'LOUSA' },
   '2022-04-13': { edition: '097', date: '2022-04-13', word: 'ARDIS' },
   '2022-04-14': { edition: '098', date: '2022-04-14', word: 'RANHO' },
   '2022-04-15': { edition: '099', date: '2022-04-15', word: 'UFANO' },
@@ -119,7 +119,7 @@ export const dailyWords: DailyWordDatabase = {
   '2022-04-17': { edition: '101', date: '2022-04-17', word: 'ACUME' },
   '2022-04-18': { edition: '102', date: '2022-04-18', word: 'LOTAR' },
   '2022-04-19': { edition: '103', date: '2022-04-19', word: 'CONTA' },
-  '2022-04-20': { edition: '104', date: '2022-04-20', word: 'OCTIL' },
+  '2022-04-20': { edition: '104', date: '2022-04-20', word: 'CRISE' },
   '2022-04-21': { edition: '105', date: '2022-04-21', word: 'DOSAR' },
   '2022-04-22': { edition: '106', date: '2022-04-22', word: 'MOITA' },
   '2022-04-23': { edition: '107', date: '2022-04-23', word: 'CLUBE' },

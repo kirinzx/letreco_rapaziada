@@ -7,7 +7,7 @@ import SettingsScreen from './SettingsScreen';
 import { GlobalSettingsContext } from '../hooks/useGlobalSettings';
 import { StatisticsScreen } from './StatisticsScreen';
 
-const APP_NAME = 'LETRECO DA RAPAZIADA';
+const APP_NAME = 'LETRECASSO DA RAPAZIADA';
 const TWITTER_URL = 'https://twitter.com/teste';
 
 function Header() {
